@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="scss/base.css">
+    <link rel="stylesheet" href="scss/table.css">
+    <link rel="stylesheet" href="scss/modules.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="group">
+        <div class="group--search">
+            <input class="inpt inpt--search" onfocus="this.value='all' " value="all" type="text" name="search" placeholder="tim kiem">
+            <button class="btn btn--primary btn--search" >Tim Kiem</button>
+        </div>
+        <div class="group--add">
+            <button class="btn btn--primary btn--add" >Add</button>
+            <div action="#" class=" d-none form--save">
+                <label for="#">Nhap Name :</label>
+                <input class="inpt inpt--name" onfocus="this.value=''" type="text" name="name" placeholder="them name">
+                <label for="#">Nhap email :</label>
+                <input class="inpt inpt--email" onfocus="this.value=''" type="email" name="email" placeholder="them email">
+                <label for="#">Nhap age :</label>
+                <input class="inpt inpt--age" onfocus="this.value=''" type="number" name="number" placeholder="them tuoi">
+                <button class="btn btn--primary btn--save"  type="submit" >Save</button>
+            </div>
+        </div>
+    </div>
+    <div class="show--data">
+        <table id="table">
+
+        </table>
+    </div>
+</div>
+<script src="./jquery.js"></script>
+</body>
+</html>
+
