@@ -1,0 +1,50 @@
+.btn {
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn--primary {
+  background-color: #0069d9;
+}
+
+.btn--primary:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #92c7ff;
+          box-shadow: 0 0 0 0.25rem #92c7ff;
+}
+
+.btn--red {
+  background-color: #c82333;
+}
+
+.btn--red:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 0px 0.25rem #f0a8af;
+          box-shadow: 0px 0px 0px 0.25rem #f0a8af;
+}
+
+.inpt {
+  height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inpt:focus {
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #92c7ff;
+          box-shadow: 0 0 0 0.25rem #92c7ff;
+}
+
+.d-none {
+  display: none !important;
+}
+/*# sourceMappingURL=modules.css.map */

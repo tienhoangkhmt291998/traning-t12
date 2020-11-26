@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a7023a-6e91-4d79-82eb-d7983e706f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai1/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="74a7023a-6e91-4d79-82eb-d7983e706f6f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Jquery" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,6 +60,7 @@
       <updated>1606094643578</updated>
       <workItem from="1606094644688" duration="55000" />
       <workItem from="1606179314197" duration="962000" />
+      <workItem from="1606267342979" duration="34000" />
     </task>
     <servers />
   </component>
@@ -79,5 +78,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="857" y="274" key="FileChooserDialogImpl" timestamp="1606267379799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="857" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606267379799" />
   </component>
 </project>
