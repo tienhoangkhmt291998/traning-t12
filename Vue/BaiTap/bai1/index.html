@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+   <style>
+    .red{
+        color:red;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+   </style>
+</head>
+<body>
+
+    <!-- <div class="" id="vue">
+        <li v-for="list in arr">
+            {{ list.id }}
+        </li>
+    </div> -->
+    <div id="vue">
+      <input type="text"  name="name" v-model="name" placeholder="nhap nham vao day">
+      <input type="text" email="email" v-model="title" placeholder="nhap titiel vao day">
+      <button v-on:click="add">Add</button>
+    <div class="search">
+      <input type="text" v-model="keySearch"  placeholder="nhap tu khoa vao day">
+      <button v-on:click="search">Search</button>
+    </div>
+        <table>
+            <tr>
+              <th>id</th>
+              <th>title</th>
+              <th></th>
+            </tr>
+            <tr v-for="(list, key) in search">
+              <td>{{ list.id }}</td>
+              <td>{{ list.title }}</td>
+              <td><button v-on:click="remove(list.id)">Xoa</button></td>
+            </tr>
+        </table>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
