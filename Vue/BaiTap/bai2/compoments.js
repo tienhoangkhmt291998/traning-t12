@@ -5,7 +5,7 @@ Vue.component('div-list', {
     props:['todo'],
     template: `
         <div>
-            <ul-list :name=todo.name :stt=todo.id ></ul-list>
+            <ul-list :name=todo.name :stt=todo.id />
         </div>
     `,
 })
@@ -15,7 +15,7 @@ Vue.component('ul-list', {
     props:['name', 'stt'],
     template: `
         <ul>
-            <li-list :fullname=name :so=stt ></li-list>
+            <li-list :fullname=name :so=stt />
         </ul>
     `,
 })

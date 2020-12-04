@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="inde.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
    <style>
     .red{
@@ -55,6 +56,7 @@
               <td><button v-on:click="remove(list.id)">Xoa</button></td>
             </tr>
         </table>
+        <model v-show="show"  v-bind:keyid="keyId" v-bind:Title="keyTitle" @click="removeArr"></model>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="./index.js"></script>
