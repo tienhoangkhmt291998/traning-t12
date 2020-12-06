@@ -47,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Jquery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +61,7 @@
       <workItem from="1606094644688" duration="55000" />
       <workItem from="1606179314197" duration="962000" />
       <workItem from="1606267342979" duration="34000" />
+      <workItem from="1606383656550" duration="85000" />
     </task>
     <servers />
   </component>
@@ -80,6 +81,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606383736043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606383736043" />
     <state x="857" y="274" key="FileChooserDialogImpl" timestamp="1606267379799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
