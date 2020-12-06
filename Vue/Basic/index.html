@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+   <style>
+    .red{
+        color:red;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+   </style>
+</head>
+<body>
+    <div class="" id="vue">
+        {{ data1 }}
+        <p> {{ getName() }} </p>
+        <p v-html="data1"></p>
+    </div>
+
+    <div class="" id="vue2">
+       <p v-bind:class="name" v-bind:style="styleData" v-html="name"></p>
+    </div>
+
+    <!-- toan tu trong vue -->
+    <!-- <div class="" id="vue3"> -->
+        <!-- <p>{{ age + 1 }}</p> -->
+        <!-- <a href="#" v-on:click= "Cong"> Cong</a>
+        <p>{{ age }}</p>
+        <p> {{ upDate() }} </p>
+
+        <h1 v-bind:class="[color]" v-on:click= "toggle" > Hello Vue Js </h1>
+    </div> -->
+    <!-- for -->
+
+    <!-- <div id="vue4">
+        <ul>
+            <li>hoang</li>
+            <li v-for= "(list , key) in arr">
+                 {{ list }}
+                 <button v-on:click="getId(key)">Xoa</button>
+            </li>
+        </ul>
+    </div> -->
+
+    <div class="" id="vue5">
+            <input type="text"  name="name" v-model="name" placeholder="nhap nham vao day">
+            <input type="text" email="email" v-model="email" placeholder="nhap email vao day">
+            <input type="number" v-model="age" placeholder="nhap tuoi vao dat">
+            <button v-on:click="add">Add</button>
+        <div class="search">
+            <input type="text" name="search" v-model="keySearch" placeholder="nhap tu khoa vao day">
+            <button  v-on:click="search">Search</button>
+        </div>
+
+        <table >
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th></th>
+            </tr>
+            <tr v-for= "(list, key) in search">
+                <td>{{ list.id }}</td>
+                <td>{{ list.name }}</td>
+                <td>{{ list.age }}</td>
+                <td> <button v-on:click="remove(key)">Xoa</button></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
