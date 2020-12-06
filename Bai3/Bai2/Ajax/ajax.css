@@ -1,0 +1,23 @@
+#pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#pagination li {
+  width: 30px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid gray;
+}
+
+.card {
+  height: 100%;
+}
+/*# sourceMappingURL=ajax.css.map */
